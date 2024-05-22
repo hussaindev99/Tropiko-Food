@@ -1,0 +1,429 @@
+.bdy{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 0%;
+    
+
+}
+
+
+.heading{
+    display: flex;
+     margin-top: 3px;
+}
+
+
+.op{
+    display: flex;
+margin-left:300px ;
+
+    
+}
+.para{
+    padding: 0px 20px;
+
+
+}
+#line-img{
+    height: 50px;
+    width: 50px;
+    padding-top: 7px;
+    padding-left: 3px;
+display: none;
+}
+#para{
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+}
+#button{
+    height: 40px;
+    background-color: orange;
+    border: coral;
+    color: white;
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+margin-left: 10px;
+    
+}
+#color{
+    color: cadetblue;
+    height: 5px;
+    font-size: 20px;
+}
+
+#mg{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+ .img-tra{
+    display: flex;
+    
+} 
+.tra{
+    display: flex;
+    
+
+}
+#fruit{text-align: right; margin-left: 35px;
+height: 420px;
+
+
+}
+#h1{
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p6{
+    
+    font-size: 18px;
+}
+.button1{
+    display: flex;
+}
+#bmain{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border: orange; color: white;
+
+}
+#umain{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border: black;
+    color: white;
+    margin-left: 5px;
+}
+
+    
+
+  @media screen and (max-width: 350px) {
+    .bdy{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+#button{display: none;
+
+    }.op{
+        display: none;
+    }.para{
+        display: none;
+    }#para{
+        display: none;
+    }#fruit{
+        width: 320px;
+        height: 120px;
+        margin-left: 5px;
+        margin-top: 30px;
+        
+    }.tra{
+        display: block;
+    }.button1{
+        display: block;
+    }#umain{
+        margin-left: 0%;
+    }
+    #line-img{
+        display: block;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+}
+
+
+
+
+
+  
+  .para-head{
+      text-align: center;
+  }
+  .card{
+      border: solid gainsboro 1px;
+      width: 270px;
+      height: 380px;
+      text-align: center;
+      padding-top: 20px;
+      
+  }
+  #card{
+      height: 50px;
+      width: 50px;
+      padding: 10px;
+  }
+  #orange{
+      color: rgb(226, 137, 19);
+      padding-top: 6px;
+  }
+  #orp{
+      
+      font-size: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .card-section{
+      display: flex;
+      justify-content: space-around;
+  }
+   .b-read{
+
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+       color: white;
+       background-color: black;
+       border: black;
+margin-left: 500px;  }
+   
+
+  @media screen and (max-width: 350px) {
+    .card-section{display: block;
+        margin-left:28px;
+        
+      
+    }.b-read{
+        margin-left: 110px;
+    }.para-head{margin-right: 2%;
+    } .body{ margin-left: 0%;
+        margin-right: 0%;
+
+    }.card{
+        margin-top: 30px;
+    }
+}
+.fhpara{
+    text-align: center;
+}
+.orange-fresh{ display: flex;
+    margin-top: 60px;
+
+}
+.fresh{
+    display: flex;
+margin-top: 50px;
+}
+#pfresh{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.a{
+    display: flex;
+}
+.jkl{
+    margin-top: 25px;
+}
+.now-buy{
+    color: white;
+    background-color: black;
+    border: black;
+    height: 40px;
+    width: 130px;
+}
+#fresh{
+    margin-right: 220px;
+    
+   
+}
+.amrode{
+    margin-top: 0%;
+
+font-size: 20px;}
+#amrode{
+    margin-right: 20px;
+}
+ .amrode-fresh{
+    display: flex;
+    margin-top: 0px;
+  
+}
+#orange-fresh{height: 200px;
+width: 340px;
+margin-left: 30px;
+margin-top: 10px;
+}
+@media screen and (max-width: 350px) {
+    .a{
+        display: block;
+    }
+    .fresh{
+        display: block;
+    }
+    #orange-fresh{
+        margin-left: 3%;
+        width: 300px;
+        height: 190px;
+    
+    }.body{
+        margin-left: 0%;
+        margin-left: 0%;
+    }.now-buy{
+        margin-left: 10px;
+    }#fresh{
+        margin-left: 10px;
+
+    }
+    #amrode{height: 270px;
+        width: 270px;
+margin-left: 10px;
+margin-top: 40px;
+    }
+     }
+
+.chacha{
+    text-align: center;
+}
+.chacha-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
+}
+.johnnhex{
+    font-size: 18px;
+    
+}
+.johnnhex-div{
+    text-align: center;
+    
+
+}
+
+@media screen and (max-width: 350px) {
+    .body{margin-left: 0%;
+        margin-right: 0%;
+    }
+    .chacha-img{
+        height: 300px;
+        width: 300px;
+    }.johnnhex{
+        margin-left: 10px;
+        margin-right: 10px;
+    }.johnnhex-div{
+        margin-top: 0%;
+    }
+      
+  }
+
+
+
+.input-field{
+    width: 830px;
+    height: 50px;
+    border: none;
+    border-bottom: solid 2px;
+    font-size: 16px;
+    outline: none;
+
+}
+#input-field{
+    margin-top: 40px;
+}
+.masami{
+    display: flex;
+    justify-content: space-between;
+}
+#masami-img{
+    height: 400px;
+    width: 220px;
+    
+}
+#heading-masami{
+    font-size: 40px;
+}
+#button-masami{
+    height: 40px;
+    width: 120px;
+    background-color: #f19215e8;
+    border: rgb(219, 127, 21);
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 350px) {
+    .bdy{
+      margin-left: 0%;
+      margin-right: 0%;
+    }#masami-img{
+        display: none;
+    }
+    .input-field{
+        width: 314px;
+    }.masami{
+        margin-left: 10px;
+    }
+  }
+  .follow-div{
+      display: flex;
+      justify-content: space-between;
+  }
+  .item{
+      margin: 5px; ;
+  }
+  .item-h1{
+      margin: 10px 0px ;
+  }
+  #fac{
+      height: 40px;
+      width: 40px;
+      padding: 2px;
+  }
+  .h1-form{margin: 0px ;
+
+
+  }
+  .form-input{
+      margin: 8px 0px;
+      height: 25px;
+      width:190px;
+
+  }
+  .subs{
+      margin: 3px;
+  }
+
+  @media screen and (max-width: 350px) {
+    .follow-div{
+
+        display: block;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
